@@ -7,9 +7,9 @@ from deepface import DeepFace
 root = tk.Tk()
 root.title("EmoMatic")
 root.geometry("800x600")
-root.configure(bg="#2C3E50")  # Background color - Darker Shade of Gray
+root.configure(bg="#2C3E50")
 
-# Add a label with the name "EmoMatic" in big red font at the top
+
 title_label = tk.Label(root, text="EmoMatic", font=("Helvetica", 24, "bold"), fg="#E74C3C", bg="#2C3E50")  # Red text
 title_label.pack(side="top", pady=(20, 10))
 
